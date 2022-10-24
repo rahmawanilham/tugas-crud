@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #efefef;
+  min-height: 100vh;
+}
+.wrap {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 3px;
+  width: 100%;
+  /* max-width: 540px; */
+  margin: 10px auto;
+  border: 1px solid rgb(204, 204, 204);
+}
+h2 {
+  font-size: 23px;
+  margin-bottom: 18px;
+}
+.wrap .konten .isi {
+  display: none;
+}
+.wrap .konten .isi.aktif {
+  display: block;
+}
+.wrap .tombolakses .tombol.aktif {
+  background-color: #2155cd;
+  color: #fafafa;
+}
+
+.wrap h1 {
+  margin: 12px 0;
+}
+.tombolakses {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #2155cd;
+}
+button {
+  padding: 10px 7px;
+  background-color: rgb(224, 224, 240);
+  color: rgb(56, 56, 56);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background-color: rgb(162, 162, 167);
+  color: #fafafa;
+}
+.btnsimpan {
+  width: 100%;
+  color: #fff;
+  background-color: #2155cd;
+  border-radius: 3px;
+}
+.btnsimpan:hover {
+  background-color: rgb(55, 55, 250);
+}
+.form {
+  margin: 10px 0;
+}
+.form p {
+  font-size: 16px;
+  margin-bottom: 7px;
+  font-weight: 400;
+  color: #464646;
+}
+input {
+  width: 100%;
+  padding: 7px 15px;
+  outline: none;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+input:focus {
+  border: 1px solid #2155cd;
+}
