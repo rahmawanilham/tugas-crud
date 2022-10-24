@@ -1,5 +1,5 @@
 <?php 
-    $koneksi = mysqli_connect("localhost","root","","datamhs");
+    $koneksi = mysqli_connect("3360","root","","datamhs");
 
     // Check connection
     if (mysqli_connect_errno()){
